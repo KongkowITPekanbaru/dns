@@ -20,12 +20,12 @@ jobs:
           args: preview
 
       - name: 📤 Preview pull request comment
-        uses: actions/github-script@v3
+        uses: actions/github-script@v6
         env:
           PREVIEW_TEXT: ${{ steps.preview.outputs.output }}
         with:
           script: |
-            github.issues.createComment({
+            github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,

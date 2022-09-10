@@ -1,14 +1,21 @@
 version: 0.1
-cli:
-    version: 0.17.0-beta
 plugins:
     sources:
         - id: trunk
           ref: v0.0.3
           uri: https://github.com/trunk-io/plugins
+cli:
+    version: 0.17.0-beta
+    sha256:
+        darwin_arm64: d0f10cede5ce6f2e9cf93c13b7422a87994c57912c2f1ec3b2b6273d965d3726
+        darwin_x86_64: de8cc96736b5888925523631926c1f5a0735bb086569ccdc3e2b62c2de2f4867
+        linux_x86_64: ddba5eb37e6885210b43f2466f8240fbeae5327506876705ef3935627d771d70
 lint:
     enabled:
         - actionlint@1.6.17
         - git-diff-check@SYSTEM
         - gitleaks@8.12.0
         - prettier@2.7.1
+    threshold:
+        - linters: [ALL]
+          level: high
