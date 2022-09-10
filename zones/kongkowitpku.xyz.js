@@ -8,5 +8,8 @@ D(
     CNAME("www", "@", CF_PROXY_ON),
 
     // Redirects
-    CF_REDIRECT("www.kongkowitpku.xyz/*", "https://kongkowitpku.xyz/$1")
+    CF_REDIRECT("www.kongkowitpku.xyz/*", "https://kongkowitpku.xyz/$1"),
+
+    // Other
+    TXT("_github-challenge-kongkowitpku-org", "b953fee805")
 );
