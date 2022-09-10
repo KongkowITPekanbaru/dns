@@ -3,6 +3,9 @@ D(
     REG_NONE,
     DnsProvider(DSP_CLOUDFLARE),
 
+    // Record ignore
+    `IGNORE_NAME`("_dnslink"),
+
     // Root
     ALIAS("@", "kongkow-soon.pages.dev.", CF_PROXY_ON),
     CNAME("www", "@", CF_PROXY_ON),
