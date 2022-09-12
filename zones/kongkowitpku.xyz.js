@@ -7,11 +7,15 @@ D(
     IGNORE_NAME("_dnslink"),
 
     // Root
-    ALIAS("@", "kongkow-soon.pages.dev.", CF_PROXY_ON),
-    CNAME("www", "@", CF_PROXY_ON),
+    A("@", "76.76.21.21"),
+    CNAME("www", "cname.vercel-dns.com."),
+
+    // Subdomain
+    A("on", "192.0.2.1", CF_PROXY_ON),
+    CNAME("umami", "cname.vercel-dns.com."),
 
     // Redirects
-    CF_REDIRECT("www.kongkowitpku.xyz/*", "https://kongkowitpku.xyz/$1"),
+    CF_REDIRECT("on.kongkowitpku.xyz/*", "https://kongkowitpku.xyz/$1"),
 
     // Other
     TXT("_github-challenge-kongkowitpku-org", "b953fee805")
