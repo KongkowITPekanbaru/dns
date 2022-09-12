@@ -13,6 +13,7 @@ D(
     // Subdomain
     A("on", "192.0.2.1", CF_PROXY_ON),
     CNAME("github", "kongkow-invite.up.railway.app."),
+    CNAME("status", "statuspage.betteruptime.com."),
     CNAME("umami", "cname.vercel-dns.com."),
 
     // Redirects
