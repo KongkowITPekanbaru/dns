@@ -12,6 +12,7 @@ D(
 
     // Subdomain
     A("on", "192.0.2.1", CF_PROXY_ON),
+    CNAME("umami", "cname.vercel-dns.com."),
 
     // Redirects
     CF_REDIRECT("on.kongkowitpku.xyz/*", "https://kongkowitpku.xyz/$1"),
