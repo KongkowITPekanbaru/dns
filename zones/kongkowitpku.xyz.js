@@ -19,6 +19,12 @@ D(
     // Redirects
     CF_REDIRECT("on.kongkowitpku.xyz/*", "https://kongkowitpku.xyz/$1"),
 
+    // Email routing
+    MX('@', 50, 'route3.mx.cloudflare.net.'),
+	MX('@', 66, 'route2.mx.cloudflare.net.'),
+	MX('@', 63, 'route1.mx.cloudflare.net.'),
+    TXT('@', 'v=spf1 include:_spf.mx.cloudflare.net ~all')
+
     // Other
     TXT("_github-challenge-kongkowitpku-org", "b953fee805")
 );
