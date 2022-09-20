@@ -14,7 +14,7 @@ D(
     A("on", "192.0.2.1", CF_PROXY_ON),
     A("media", "54.251.57.162"),
     CNAME("assets", "kongkowitpku.github.io.", CF_PROXY_ON),
-    CNAME("contribute", "kongkow-issues.netlify.app."),
+    CNAME("contribute", "cname.vercel-dns.com."),
     CNAME("github", "kongkow-invite.up.railway.app."),
     CNAME("status", "statuspage.betteruptime.com."),
     CNAME("umami", "c0a0d14a-0220-4841-bb42-86abf0d80389.cname.koyeb.app."),
