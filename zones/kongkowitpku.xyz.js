@@ -12,6 +12,7 @@ D(
 
     // Subdomain
     A("on", "192.0.2.1", CF_PROXY_ON),
+    A("media", "54.251.57.162"),
     CNAME("assets", "kongkowitpku.github.io.", CF_PROXY_ON),
     CNAME("contribute", "kongkow-issues.netlify.app."),
     CNAME("github", "kongkow-invite.up.railway.app."),
