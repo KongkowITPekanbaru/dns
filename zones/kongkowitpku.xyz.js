@@ -20,7 +20,6 @@ D(
     CNAME("status", "statuspage.betteruptime.com."),
     CNAME("umami", "c0a0d14a-0220-4841-bb42-86abf0d80389.cname.koyeb.app."),
     CNAME("wcumum", "cname.vercel-dns.com."),
-    CNAME("*.wcumum", "cname.vercel-dns.com."),
     CNAME("wip", "cname.vercel-dns.com."),
 
     // Redirects
