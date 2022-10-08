@@ -19,6 +19,7 @@ D(
     CNAME("github", "kongkow-invite.up.railway.app."),
     CNAME("status", "statuspage.betteruptime.com."),
     CNAME("umami", "c0a0d14a-0220-4841-bb42-86abf0d80389.cname.koyeb.app."),
+    CNAME("wcumum", "cname.vercel-dns.com."),
     CNAME("wip", "cname.vercel-dns.com."),
 
     // Redirects
@@ -31,5 +32,9 @@ D(
     TXT("@", "v=spf1 include:_spf.mx.cloudflare.net ~all"),
 
     // Other
-    TXT("_github-challenge-kongkowitpku-org", "b953fee805")
+    TXT("_github-challenge-kongkowitpku-org", "b953fee805"),
+    TXT(
+        "_vercel",
+        "vc-domain-verify=link.kongkowitpku.xyz,9c3b9944e6a8ce77d5bc"
+    )
 );
