@@ -13,9 +13,9 @@ runtimes:
         - node@16.14.2
 lint:
     enabled:
-        - actionlint@1.6.20
+        - actionlint@1.6.21
         - git-diff-check
-        - gitleaks@8.13.0
+        - gitleaks@8.14.0
         - prettier@2.7.1
 cli:
     version: 0.18.1-beta
