@@ -13,12 +13,12 @@ D(
     // Subdomain
     A("on", "192.0.2.1", CF_PROXY_ON),
     A("media", "54.251.57.162"),
+    CNAME("analytics", "cname.vercel-dns.com."),
     CNAME("assets", "kongkowitpku.github.io.", CF_PROXY_ON),
     CNAME("cms", "cname.vercel-dns.com."),
     CNAME("contribute", "cname.vercel-dns.com."),
     CNAME("link", "cname.dub.sh."),
     CNAME("status", "statuspage.betteruptime.com."),
-    CNAME("umami", "c0a0d14a-0220-4841-bb42-86abf0d80389.cname.koyeb.app."),
     CNAME("wcumum", "cname.vercel-dns.com."),
     CNAME("wip", "cname.vercel-dns.com."),
 
