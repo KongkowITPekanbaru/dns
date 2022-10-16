@@ -1,26 +1,26 @@
 version: 0.1
 actions:
-    disabled:
-        - trunk-check-pre-push
-    enabled:
-        - trunk-announce
-        - trunk-cache-prune
-        - trunk-fmt-pre-commit
-        - trunk-upgrade-available
+  disabled:
+    - trunk-check-pre-push
+  enabled:
+    - trunk-announce
+    - trunk-cache-prune
+    - trunk-fmt-pre-commit
+    - trunk-upgrade-available
 runtimes:
-    enabled:
-        - go@1.18.3
-        - node@16.14.2
+  enabled:
+    - go@1.18.3
+    - node@16.14.2
 lint:
-    enabled:
-        - actionlint@1.6.21
-        - git-diff-check
-        - gitleaks@8.15.0
-        - prettier@2.7.1
+  enabled:
+    - actionlint@1.6.21
+    - git-diff-check
+    - gitleaks@8.15.0
+    - prettier@2.7.1
 cli:
-    version: 0.18.1-beta
+  version: 0.18.1-beta
 plugins:
-    sources:
-        - id: trunk
-          ref: v0.0.5
-          uri: https://github.com/trunk-io/plugins
+  sources:
+    - id: trunk
+      ref: v0.0.5
+      uri: https://github.com/trunk-io/plugins
