@@ -5,8 +5,8 @@
 // Providers
 var REG_NONE = NewRegistrar("none"); // No registrar.
 var DSP_CLOUDFLARE = NewDnsProvider("cloudflare", {
-    manage_redirects: true,
-    manage_workers: true,
+  manage_redirects: true,
+  manage_workers: true,
 });
 
 // Meta settings for individual records.
@@ -19,7 +19,7 @@ var CF_PROXY_DEFAULT_OFF = { cloudflare_proxy_default: "off" };
 var CF_PROXY_DEFAULT_ON = { cloudflare_proxy_default: "on" };
 
 DEFAULTS(
-    CF_PROXY_DEFAULT_OFF // turn proxy off when not specified otherwise
+  CF_PROXY_DEFAULT_OFF // turn proxy off when not specified otherwise
 );
 
 // Zones
