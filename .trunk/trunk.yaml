@@ -15,7 +15,7 @@ lint:
     enabled:
         - actionlint@1.6.21
         - git-diff-check
-        - gitleaks@8.14.1
+        - gitleaks@8.15.0
         - prettier@2.7.1
 cli:
     version: 0.18.1-beta
