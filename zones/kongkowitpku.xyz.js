@@ -19,7 +19,6 @@ D(
   CNAME("link", "cname.dub.sh."),
   CNAME("status", "statuspage.betteruptime.com."),
   CNAME("umami", "cname.vercel-dns.com."),
-  CNAME("wcumum", "cname.vercel-dns.com."),
   CNAME("wip", "cname.vercel-dns.com."),
 
   // Redirects
