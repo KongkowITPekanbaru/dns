@@ -11,7 +11,6 @@ D(
   CNAME("www", "cname.vercel-dns.com."),
 
   // Subdomain
-  CNAME("laporpakde", "cname.vercel-dns.com."),
   CNAME("wcumum", "cname.vercel-dns.com."),
   CNAME("wip", "cname.vercel-dns.com.")
 );
