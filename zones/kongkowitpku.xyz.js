@@ -11,18 +11,13 @@ D(
   CNAME("www", "cname.vercel-dns.com."),
 
   // Subdomain
-  A("on", "192.0.2.1", CF_PROXY_ON),
   A("media", "54.251.57.162"),
   CNAME("assets", "kongkowitpku.github.io.", CF_PROXY_ON),
   CNAME("cms", "cname.vercel-dns.com."),
   CNAME("contribute", "cname.vercel-dns.com."),
-  CNAME("link", "cname.dub.sh."),
   CNAME("status", "statuspage.betteruptime.com."),
   CNAME("umami", "cname.vercel-dns.com."),
   CNAME("wip", "cname.vercel-dns.com."),
-
-  // Redirects
-  CF_REDIRECT("on.kongkowitpku.xyz/*", "https://kongkowitpku.xyz/$1"),
 
   // Email routing
   MX("@", 50, "route3.mx.cloudflare.net."),
