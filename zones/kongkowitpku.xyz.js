@@ -13,7 +13,6 @@ D(
   // Subdomain
   A("media", "54.251.57.162"),
   CNAME("assets", "kongkowitpku.github.io.", CF_PROXY_ON),
-  CNAME("cms", "cname.vercel-dns.com."),
   CNAME("contribute", "cname.vercel-dns.com."),
   CNAME("status", "statuspage.betteruptime.com."),
   CNAME("umami", "cname.vercel-dns.com."),
@@ -26,6 +25,5 @@ D(
   TXT("@", "v=spf1 include:_spf.mx.cloudflare.net ~all"),
 
   // Other
-  TXT("_github-challenge-kongkowitpku-org", "b953fee805"),
-  TXT("_vercel", "vc-domain-verify=link.kongkowitpku.xyz,9c3b9944e6a8ce77d5bc")
+  TXT("_github-challenge-KongkowITPekanbaru-org", "765bce67f8")
 );
