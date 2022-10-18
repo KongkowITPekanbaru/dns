@@ -12,7 +12,7 @@ D(
 
   // Subdomain
   A("media", "54.251.57.162"),
-  CNAME("assets", "kongkowitpku.github.io.", CF_PROXY_ON),
+  CNAME("assets", "kongkowitpekanbaru.github.io.", CF_PROXY_ON),
   CNAME("contribute", "cname.vercel-dns.com."),
   CNAME("status", "statuspage.betteruptime.com."),
   CNAME("umami", "cname.vercel-dns.com."),
